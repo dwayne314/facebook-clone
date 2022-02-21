@@ -1,0 +1,90 @@
+.contacts {
+  width: 250px;
+  position: sticky;
+  top: var(--home-padding-top);
+  align-self: flex-start;
+  text-align: left;
+  margin-right: 20px;
+  z-index: 2;
+}
+
+.contacts .contacts__contacts-list {
+  margin: 0;
+  margin-left: -10px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.contacts__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts__icons {
+  display: flex;
+  width: 90px;
+  justify-content: space-between;
+}
+
+.contacts__icon-container {
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.contacts__icon-container:hover {
+  background-color: #f1f1f1;
+}
+
+.contacts__icons .contact-icon {
+  height: 18px;
+  width: 18px;
+}
+
+.contacts__section {
+  display: flex;
+  padding-left: 10px;
+  height: 50px;
+
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.contacts__section:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.contacts__icon {
+  position: relative;
+}
+.contacts__icon > div {
+  margin-right: 12px;
+}
+
+.contacts__online-icon-container {
+  position: absolute;
+  bottom: -5px;
+  right: 10px;
+  margin: 2px;
+  height: 12px;
+  width: 12px;
+  border-radius: 9999px;
+  background-color: white;
+}
+.contacts__online-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 8px;
+  width: 8px;
+  border-radius: 9999px;
+
+  background-color: green;
+}

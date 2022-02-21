@@ -1,0 +1,100 @@
+.story-card {
+  position: relative;
+  height: 200px;
+  width: 120px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  cursor: pointer;
+  opacity: 90%;
+}
+
+.story-card .story-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(75%);
+}
+
+.story-card .story-card__img-create-post {
+  height: 75%;
+}
+
+.story-card .story-card__text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 8px;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.story-card .story-card__text p {
+  margin: 0px;
+}
+
+.story-card .story-card__text-create-post {
+  color: black;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.story-card .story-card__text-create-post p {
+  width: 100px;
+  text-align: center;
+  margin: auto;
+}
+
+.story-card__avatar.MuiAvatar-root {
+  position: absolute;
+  top: 10px;
+  left: 8px;
+  height: 30px;
+  width: 30px;
+  border: 4px solid rgb(24, 118, 242);
+}
+
+.story-card .story-card__create-post-btn-container {
+  position: absolute;
+  top: calc(75% - 15px);
+  left: 50%;
+  right: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: inherit;
+  transform: translateX(-50%);
+  border-radius: 50%;
+}
+
+.story-card .story-card__create-post-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(24, 118, 242);
+  border-radius: 50%;
+  text-align: center;
+}
+
+.story-card .story-card__create-post-btn .MuiSvgIcon-root {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.story-card:hover {
+  opacity: 100%;
+  background-color: rgb(206, 208, 212);
+}
+
+.story-card__create-post-btn img {
+  height: 15px;
+  width: 15px;
+}

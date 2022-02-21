@@ -1,0 +1,36 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+}
+
+.login__logo-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+}
+
+.login__logo-header img {
+  height: 100px;
+  width: 100px;
+}
+
+#login__text-logo {
+  height: 200px;
+  width: 200px;
+}
+
+.login__action-btn {
+  width: 250px;
+  height: 50px;
+  border: 0px;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #42b72a;
+  color: white;
+}

@@ -1,0 +1,6 @@
+.home {
+  display: flex;
+  min-height: calc(100vh - 70px);
+  padding-top: var(--home-padding-top);
+  background-color: var(--primary-background);
+}
